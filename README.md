@@ -2,7 +2,7 @@
 
 Lint and validate your `CLAUDE.md` — catch mistakes before Claude Code does.
 
-Zero dependencies. Works as CLI, npm package, or GitHub Action.
+Zero dependencies. Works as CLI, npm package, GitHub Action, or [online validator](https://claudecheck.pages.dev).
 
 ## Why
 
