@@ -94,6 +94,12 @@ console.log(summary);
 // { errors: 0, warnings: 1, info: 0, passed: 11, total: 12 }
 ```
 
+## Resources
+
+- [How to Write a CLAUDE.md](https://claudecheck.pages.dev/guide/) — complete guide
+- [CLAUDE.md Examples](https://claudecheck.pages.dev/examples/) — templates for React, Python, Go, Rust, and more
+- [Online Validator](https://claudecheck.pages.dev) — validate in your browser
+
 ## License
 
 MIT
