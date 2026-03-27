@@ -1,0 +1,44 @@
+{
+  "name": "claudecheck",
+  "version": "1.0.0",
+  "description": "Lint and validate your CLAUDE.md — catch mistakes before Claude Code does",
+  "main": "src/index.js",
+  "bin": {
+    "claudecheck": "src/cli.js"
+  },
+  "scripts": {
+    "test": "node test/run.js",
+    "lint": "node src/cli.js"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "claude-md",
+    "linter",
+    "validator",
+    "ai",
+    "developer-tools",
+    "CLAUDE.md",
+    "coding-assistant",
+    "anthropic"
+  ],
+  "author": "Lunacompsia <hello@lunacompsia.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lunacompsia-oss/claudecheck.git"
+  },
+  "homepage": "https://github.com/lunacompsia-oss/claudecheck",
+  "bugs": {
+    "url": "https://github.com/lunacompsia-oss/claudecheck/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "src/",
+    "action.yml",
+    "README.md",
+    "LICENSE"
+  ]
+}

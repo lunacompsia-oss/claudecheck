@@ -1,0 +1,29 @@
+name: "claudecheck"
+description: "Lint and validate your CLAUDE.md — catch mistakes before Claude Code does"
+author: "Lunacompsia"
+
+branding:
+  icon: "check-circle"
+  color: "purple"
+
+inputs:
+  path:
+    description: "Path to CLAUDE.md (default: repo root)"
+    required: false
+    default: "."
+  fail-on-warning:
+    description: "Fail the check on warnings too (default: true)"
+    required: false
+    default: "true"
+
+outputs:
+  errors:
+    description: "Number of errors found"
+  warnings:
+    description: "Number of warnings found"
+  passed:
+    description: "Whether all checks passed (true/false)"
+
+runs:
+  using: "node20"
+  main: "src/action.js"
